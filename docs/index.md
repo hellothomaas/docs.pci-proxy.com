@@ -1,4 +1,4 @@
-# Welcome to MkDocs
+# Welcome to the Datatrans pci-proxy documentation
 
 For full documentation visit [mkdocs.org](http://mkdocs.org).
 
