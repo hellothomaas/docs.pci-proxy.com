@@ -1,0 +1,4 @@
+site_name: PCI Proxy Documentation 
+pages:
+- Home: index.md
+theme: readthedocs
