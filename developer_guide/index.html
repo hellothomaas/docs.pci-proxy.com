@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Developer Guide - PCI Proxy Documentation</title>
+  
+
+  <link rel="shortcut icon" href="../img/favicon.ico">
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
+
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Developer Guide";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script>
+  <script src="../js/theme.js"></script> 
+
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> PCI Proxy Documentation</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        <ul class="current">
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="..">Introduction</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 current">
+        <a class="current" href="./">Developer Guide</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#inbound-web-interface-payment-page">Inbound: Web Interface (Payment Page)</a></li>
+                
+                    <li><a class="toctree-l4" href="#responsive-payment-page-inline-mode">Responsive Payment Page &amp; Inline Mode</a></li>
+                
+            
+            </ul>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../pci_dss_notes/">PCI DSS Notes</a>
+        
+    </li>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">PCI Proxy Documentation</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Developer Guide</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="inbound-web-interface-payment-page">Inbound: Web Interface (Payment Page)</h1>
+<p>Our Payment Pages are different web interfaces (APIs) that can be used to tokenise credit card numbers. For in-
+stance, it can be used in the reservation process to guarantee a booking.  </p>
+<p>Through our APIs, the guest’s computer communicates directly with our servers to exchange its credit card num-
+ber for a credit card token and forwards only the token to your servers. <strong>Hence, channel is PCI compliant</strong>.</p>
+<h2 id="responsive-payment-page-inline-mode">Responsive Payment Page &amp; Inline Mode</h2>
+<table>
+<thead>
+<tr>
+<th align="center">Redirect Mode</th>
+<th align="center">Lightbox Mode</th>
+<th align="center">Inline Mode</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><img src="../img/redirect.png" width="150"></td>
+<td align="center"><img src="../img/lightbox.png" width="150"></td>
+<td align="center"><img src="../img/inline.png" width="150"></td>
+</tr>
+<tr>
+<td align="center">Redirect of consumer to payment page managed by Datatrans.</td>
+<td align="center">Payment pages are placedon shop as overlay (iFrame).</td>
+<td align="center">Payment page managed by Datatrans is incorporated with iFrame.</td>
+</tr>
+</tbody>
+</table>
+<p>A comprehensive documentation of our Payment pages can be found on our <a href="https://datatrans.ch/showcase/authorisation/redirect-mode">Showcase</a></p>
+<hr />
+<!--
+
+# Inbound: Push Operation (XML/SOAP API)
+
+# Inbound: Pull Operation (XML/SOAP API)
+
+# Outbound: Web Interface (NoShow)
+
+-->
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../pci_dss_notes/" class="btn btn-neutral float-right" title="PCI DSS Notes"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href=".." class="btn btn-neutral" title="Introduction"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+<div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href=".." style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../pci_dss_notes/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+
+</body>
+</html>
