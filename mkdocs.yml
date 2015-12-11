@@ -1,4 +1,6 @@
 site_name: PCI Proxy Documentation 
 pages:
-- Home: index.md
+- Introduction: 'index.md'
+- Developer Guide: 'developer_guide.md'
+- PCI DSS Notes: 'pci_dss_notes.md'
 theme: readthedocs

@@ -1,7 +1,20 @@
-# Welcome to the Datatrans pci-proxy documentation dsfasd
+**Welcome to the Datatrans PCI Proxy Documentation**
 
-# asdfasdfas
-# hello thomas
+
+
+
+This documentation is work in progress: 
+![work in progroess](https://img.shields.io/badge/docs-10%25-red.svg)
+
+Before you start please consider downloading the recent version of our technical documentation guide and visit the PCI DSS Standard website.
+
+* [Technical Implementation Guide for Universal Payment Page (UPP)](https://pilot.datatrans.biz/showcase/doc/Technical_Implementation_Guide.pdf)
+* [PCI DSS – The Standard](https://www.pcisecuritystandards.org/security_standards/documents.php)
+
+<!--
+
+
+### <a name="tith"></a>This is the Heading
 
 For full documentation visit [mkdocs.org](http://mkdocs.org).
 
@@ -18,3 +31,5 @@ For full documentation visit [mkdocs.org](http://mkdocs.org).
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+-->
