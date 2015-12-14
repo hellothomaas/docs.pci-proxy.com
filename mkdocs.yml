@@ -1,6 +1,9 @@
 site_name: PCI Proxy Documentation 
 pages:
 - Introduction: 'index.md'
-- Developer Guide: 'developer_guide.md'
-- PCI DSS Notes: 'pci_dss_notes.md'
+- User Guide:
+    - 'Inbound: Web Interface (Payment Page)': 'user-guide/payment-page.md'
+    - 'Inbound: Push Operation': 'user-guide/push-api.md'
+    - 'Inbound: Pull Operation': 'user-guide/pull-api.md'
+- PCI DSS Notes: 'pci-dss-notes.md'
 theme: readthedocs
