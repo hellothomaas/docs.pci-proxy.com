@@ -1,4 +1,4 @@
-**Welcome to the Datatrans PCI Proxy Documentation**
+**Welcome to the Datatrans PCI Proxy Documentation!**
 
 _This documentation is currently work in progress!_
 
